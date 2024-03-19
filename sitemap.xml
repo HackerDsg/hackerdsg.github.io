@@ -119,6 +119,13 @@
 
   
   <url>
+    <loc>https://hackerdsg.com/tags/VPN/</loc>
+    <lastmod>2024-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hackerdsg.com/tags/C/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -132,24 +139,17 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://hackerdsg.com/tags/VPN/</loc>
-    <lastmod>2024-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://hackerdsg.com/categories/Experience/</loc>
+    <loc>https://hackerdsg.com/categories/Technologies/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/categories/Technologies/</loc>
+    <loc>https://hackerdsg.com/categories/Experience/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
