@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://hackerdsg.com/post/c0a1/</loc>
+    <loc>https://hackerdsg.io/post/c0a1/</loc>
     
     <lastmod>2023-02-07</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/about/index.html</loc>
+    <loc>https://hackerdsg.io/about/index.html</loc>
     
     <lastmod>2023-02-07</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/privacy/index.html</loc>
+    <loc>https://hackerdsg.io/privacy/index.html</loc>
     
     <lastmod>2023-02-07</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/post/6aef/</loc>
+    <loc>https://hackerdsg.io/post/6aef/</loc>
     
     <lastmod>2023-02-05</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/friends/index.html</loc>
+    <loc>https://hackerdsg.io/friends/index.html</loc>
     
     <lastmod>2023-01-27</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/404.html</loc>
+    <loc>https://hackerdsg.io/404.html</loc>
     
     <lastmod>2023-01-27</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/privacy/note/physics.html</loc>
+    <loc>https://hackerdsg.io/privacy/note/physics.html</loc>
     
     <lastmod>2023-01-26</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/privacy/note/economics.html</loc>
+    <loc>https://hackerdsg.io/privacy/note/economics.html</loc>
     
     <lastmod>2023-01-26</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/privacy/note/chemistry.html</loc>
+    <loc>https://hackerdsg.io/privacy/note/chemistry.html</loc>
     
     <lastmod>2023-01-26</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/privacy/note/calculus.html</loc>
+    <loc>https://hackerdsg.io/privacy/note/calculus.html</loc>
     
     <lastmod>2023-01-26</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/tags/index.html</loc>
+    <loc>https://hackerdsg.io/tags/index.html</loc>
     
     <lastmod>2023-01-21</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/categories/index.html</loc>
+    <loc>https://hackerdsg.io/categories/index.html</loc>
     
     <lastmod>2023-01-21</lastmod>
     
@@ -111,7 +111,7 @@
   
 
   <url>
-    <loc>https://hackerdsg.com/</loc>
+    <loc>https://hackerdsg.io/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -119,21 +119,21 @@
 
   
   <url>
-    <loc>https://hackerdsg.com/tags/VPN/</loc>
+    <loc>https://hackerdsg.io/tags/C/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/tags/C/</loc>
+    <loc>https://hackerdsg.io/tags/VSCode/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/tags/VSCode/</loc>
+    <loc>https://hackerdsg.io/tags/VPN/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -142,14 +142,14 @@
 
   
   <url>
-    <loc>https://hackerdsg.com/categories/Technologies/</loc>
+    <loc>https://hackerdsg.io/categories/Experience/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hackerdsg.com/categories/Experience/</loc>
+    <loc>https://hackerdsg.io/categories/Technologies/</loc>
     <lastmod>2024-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
