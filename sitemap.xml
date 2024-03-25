@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://hackerdsg.io/post/0/</loc>
+    <loc>https://hackerdsg.io/post/c0a2/</loc>
+    
+    <lastmod>2024-03-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hackerdsg.io/post/2340/</loc>
     
     <lastmod>2024-03-25</lastmod>
     
@@ -101,6 +110,20 @@
 
   
   <url>
+    <loc>https://hackerdsg.io/tags/generals-io/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hackerdsg.io/tags/Gmail/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hackerdsg.io/tags/SSH/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -128,14 +151,14 @@
     <priority>0.2</priority>
   </url>
   
+
+  
   <url>
-    <loc>https://hackerdsg.io/tags/generals-io/</loc>
+    <loc>https://hackerdsg.io/categories/Entertainment/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
-  
-
   
   <url>
     <loc>https://hackerdsg.io/categories/Technologies/</loc>
@@ -146,13 +169,6 @@
   
   <url>
     <loc>https://hackerdsg.io/categories/Experience/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hackerdsg.io/categories/Entertainment/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -1,4 +1,5 @@
-https://hackerdsg.io/post/0/
+https://hackerdsg.io/post/c0a2/
+https://hackerdsg.io/post/2340/
 https://hackerdsg.io/post/7289/
 https://hackerdsg.io/post/2389/
 https://hackerdsg.io/about/index.html
@@ -9,11 +10,12 @@ https://hackerdsg.io/404.html
 https://hackerdsg.io/tags/index.html
 https://hackerdsg.io/categories/index.html
 https://hackerdsg.io/
+https://hackerdsg.io/tags/generals-io/
+https://hackerdsg.io/tags/Gmail/
 https://hackerdsg.io/tags/SSH/
 https://hackerdsg.io/tags/VPN/
 https://hackerdsg.io/tags/C/
 https://hackerdsg.io/tags/VSCode/
-https://hackerdsg.io/tags/generals-io/
+https://hackerdsg.io/categories/Entertainment/
 https://hackerdsg.io/categories/Technologies/
 https://hackerdsg.io/categories/Experience/
-https://hackerdsg.io/categories/Entertainment/
