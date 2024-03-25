@@ -115,13 +115,6 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.io/tags/generals-io/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://hackerdsg.io/tags/C/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -130,6 +123,13 @@
   
   <url>
     <loc>https://hackerdsg.io/tags/VSCode/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hackerdsg.io/tags/generals-io/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -145,14 +145,14 @@
   </url>
   
   <url>
-    <loc>https://hackerdsg.io/categories/Entertainment/</loc>
+    <loc>https://hackerdsg.io/categories/Experience/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hackerdsg.io/categories/Experience/</loc>
+    <loc>https://hackerdsg.io/categories/Entertainment/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
