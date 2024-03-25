@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+        <title>史上最全翻墙教程 | HackerDsgのHarbor</title>
+        <meta name="author" content="HackerDsg">
+        <meta name="description" content="Share some interesting technologies">
+        <meta name="keywords" content="">
+        <link rel="icon" href="/images/avatar.png">
+        <script src="https://cdn.staticfile.org/vue/3.2.45/vue.global.prod.min.js"></script>
+        <script src="https://cdn.staticfile.org/highlight.js/11.7.0/highlight.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/11.7.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.2.1/css/all.min.css">
+        
+        <script src="https://polyfill.io/v3/polyfill.min.js?features="></script>
+        
+        
+        <script src="https://cdn.staticfile.org/KaTeX/0.16.4/katex.min.js"></script>
+        <script src="https://cdn.staticfile.org/KaTeX/0.16.4/contrib/auto-render.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.staticfile.org/KaTeX/0.16.4/katex.min.css">
+        
+        
+        <link rel="stylesheet" href="/css/fonts.min.css">
+        <link rel="stylesheet" href="/css/particlex.css">
+    <meta name="generator" content="Hexo 6.3.0"></head>
+    <body>
+        <div id="loading" style="height: 100vh; width: 100vw; position: fixed; display: flex; z-index: 2147483647; justify-content: space-between; background: #fff; transition: opacity 0.3s ease-out, visibility 0.3s; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none">
+    <div style="position: fixed; height: 100vh; width: 100vw; display: flex; justify-content: center; align-items: center">
+        <div id="loadcontent" style="width: 50vmin; height: 50vmin; padding: 50px; border-radius: 50%; display: flex; justify-content: center; align-items: center; border: solid 10px #a3ddfb; text-align: center">
+            <div>
+                <h2>LOADING...</h2>
+                <p style="word-break: keep-all">
+		<script type="text/javascript">
+		var len=36;
+		var rnd=Math.floor(Math.random()*len);
+		var txt=new Array(len);
+		txt[0]="Hold your horses.";
+		txt[1]="Haste makes waste.";
+		txt[2]="A watched pot never boils.";
+		txt[3]="Rome was not built in a day.";
+		txt[4]="No pain, no gain.";
+		txt[5]="No cross, no crown.";
+		txt[6]="Sow nothing, reap nothing.";
+		txt[7]="A good medicine tastes bitter.";
+		txt[8]="April showers bring May flowers.";
+		txt[9]="The finest diamond must be cut.";
+		txt[10]="There is no royal road to learning.";
+		txt[11]="Constant dropping wears away a stone.";
+		txt[12]="Fortune favors the bold.";
+		txt[13]="A bold attempt is half success.";
+		txt[14]="Where there is a will, there is a way.";
+		txt[15]="Failure is the mother of success.";
+		txt[16]="A fall into a pit, a gain in your wit.";
+		txt[17]="Experience is the mother of wisdom.";
+		txt[18]="Look before you leap.";
+		txt[19]="Care and diligence bring luck.";
+		txt[20]="Never let anyone know what you're thinking.";
+		txt[21]="Accidents don't happen to people who take accidents as a personal insult.";
+		txt[22]="The more noble, the more humble.";
+		txt[23]="Knowledge makes humble, ignorance makes proud.";
+		txt[24]="A friend in need is a friend indeed.";
+		txt[25]="A hedge between keeps friendship green.";
+		txt[26]="Without confidence there is no friendship.";
+		txt[27]="Book and friends should be few but good.";
+		txt[28]="A life without a friend is a life without a sun.";
+		txt[29]="A bosom friend afar brings a distant land near";
+		txt[30]="Seeing is believing.";
+		txt[31]="All roads lead to Rome.";
+		txt[32]="Every coin has two sides.";
+		txt[33]="Nothing comes from nothing.";
+		txt[34]="A bad workman blames his tools.";
+		txt[35]="East or west, HackerDsgのHarbor is best.";
+		document.write(txt[rnd]);
+		</script>
+	</p>
+                <div>
+                    <img alt="loading" src="/images/loading.gif" style="height: 50px">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div id="layout">
+            <transition name="into">
+            <div v-show="showpage" style="display: -not-none">
+                <div id="menushow">
+                    <nav id="menu">
+    <div class="desktop-menu">
+        <a href="/">
+            <span style="color: Lavender" class="title">HackerDsgのHarbor</span>
+        </a>
+        <span class="items">
+        
+        <a href="/">
+            <i  style="color: Lightcyan" class="fa-solid fa-house fa-fw"></i>
+            <span style="color: Lightcyan">&ensp;home</span>
+        </a>
+        
+        <a href="/about">
+            <i  style="color: Lightcyan" class="fa-solid fa-id-card fa-fw"></i>
+            <span style="color: Lightcyan">&ensp;about</span>
+        </a>
+        
+        <a href="/archives">
+            <i  style="color: Lightcyan" class="fa-solid fa-search fa-fw"></i>
+            <span style="color: Lightcyan">&ensp;archives</span>
+        </a>
+        
+        <a href="/categories">
+            <i  style="color: Lightcyan" class="fa-solid fa-bookmark fa-fw"></i>
+            <span style="color: Lightcyan">&ensp;categories</span>
+        </a>
+        
+        <a href="/tags">
+            <i  style="color: Lightcyan" class="fa-solid fa-tags fa-fw"></i>
+            <span style="color: Lightcyan">&ensp;tags</span>
+        </a>
+        
+        </span>
+    </div>
+    <div :class="'phone-menu ' + menushow" id="phone-menu">
+        <div class="curtain" @click="menushow = !menushow" v-show="menushow"></div>
+        <div class="title" @click="menushow = !menushow">
+            <i class="fa-solid fa-bars fa-fw"></i>
+            <span>&emsp;HackerDsgのHarbor</span>
+        </div>
+        <transition name="slide">
+        <div class="items" v-show="menushow">
+            
+            <a href="/">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-house fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">home</div>
+                </div>
+            </a>
+            
+            <a href="/about">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-id-card fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">about</div>
+                </div>
+            </a>
+            
+            <a href="/archives">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-search fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">archives</div>
+                </div>
+            </a>
+            
+            <a href="/categories">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-bookmark fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">categories</div>
+                </div>
+            </a>
+            
+            <a href="/tags">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-tags fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">tags</div>
+                </div>
+            </a>
+            
+        </div>
+        </transition>
+    </div>
+</nav>
+
+                </div>
+                <div id="main">
+                    <div class="article">
+    <div>
+        <h1>史上最全翻墙教程 </h1>
+    </div>
+    <div class="info">
+        
+        <span class="category">
+            <a href="/categories/Technologies/">
+                <span class="icon">
+                    <i class="fa-solid fa-bookmark fa-fw"></i>
+                </span>
+                Technologies
+            </a>
+        </span>
+        
+        
+        <span class="tags">
+            <span class="icon">
+                <i class="fa-solid fa-tags fa-fw"></i>
+            </span>
+            
+            <span class="tag">
+                
+                <a href="/tags/VPN/" style="color: #ffa2c4">
+                    VPN
+                </a>
+            </span>
+            
+        </span>
+        
+    </div>
+    
+    <div class="content" v-pre>
+        <p><strong>这个教程会完整地介绍VPN，翻墙的概念及几种翻墙的方法。</strong></p>
+<span id="more"></span>
+
+<h3 id="0-概念"><a href="#0-概念" class="headerlink" title="0. 概念"></a><a href="#concept">0. 概念</a></h3><ul>
+<li><a href="#what">&lt;1&gt; 什么是VPN？</a></li>
+<li><a href="#climb">&lt;2&gt; 什么是翻墙？</a></li>
+<li><a href="#whyclimb">&lt;3&gt; 为什么要翻墙？</a></li>
+</ul>
+<h3 id="1-Clash的使用"><a href="#1-Clash的使用" class="headerlink" title="1. Clash的使用"></a><a href="#clash">1. Clash的使用</a></h3><ul>
+<li><a href="#install">&lt;1&gt; 安装</a></li>
+<li><a href="#node">&lt;2&gt; 节点</a></li>
+<li><a href="#import">&lt;3&gt; 导入</a></li>
+</ul>
+<h3 id="2-v2rayN的使用"><a href="#2-v2rayN的使用" class="headerlink" title="2. v2rayN的使用"></a><a href="#v2rayN">2. v2rayN的使用</a></h3><ul>
+<li><a href="#install2">&lt;1&gt; 安装</a></li>
+<li><a href="#node2">&lt;2&gt; 节点</a></li>
+</ul>
+<h3 id="3-其它VPN"><a href="#3-其它VPN" class="headerlink" title="3. 其它VPN"></a><a href="#others">3. 其它VPN</a></h3><ul>
+<li><a href="#aoxvpn">&lt;1&gt; AoxVPN</a></li>
+<li><a href="#freegate">&lt;2&gt; Freegate</a></li>
+<li><a href="#greenhub">&lt;3&gt; Greenhub</a></li>
+<li><a href="#lantern">&lt;4&gt; Lantern</a></li>
+</ul>
+<h3 id="End-结语"><a href="#End-结语" class="headerlink" title="End. 结语"></a><a href="#end">End. 结语</a></h3><h1 id="0-概念-1"><a href="#0-概念-1" class="headerlink" title="0. 概念"></a><span id="concept">0. 概念</span></h1><h3 id="lt-1-gt-什么是VPN？"><a href="#lt-1-gt-什么是VPN？" class="headerlink" title=" &lt;1&gt; 什么是VPN？"></a><span id="what"> &lt;1&gt; 什么是VPN？</span></h3><p>VPN全称为”Virtual Private Network”，翻译过来也就是虚拟网络连接。那么，虚拟网络连接是什么呢？</p>
+<p>想象一下，你在北京，你想去美国旅游。但是，两地之间的距离太遥远了，就算坐飞机也需要一两天。你坐上了飞机，坐着坐着，突然出现一道空气墙拦住你的去路。这时候，该怎么办呢？</p>
+<p>假设你从地下挖一条隧道，挖穿地壳、地幔、地核，直接到达美国的一个位置呢，就像刺客伍六七去玄武国这一段。</p>
+<p><img src="https://s2.loli.net/2023/01/27/xdV3ZnhjPUMuslt.png"></p>
+<p>在网络世界中，通过一条虚拟隧道光速连接到另一个国家服务器，再通过这个服务器访问你要去的网站，这种虚拟的网络隧道就叫做VPN，服务器就叫做节点。</p>
+<h3 id="lt-2-gt-什么是翻墙？"><a href="#lt-2-gt-什么是翻墙？" class="headerlink" title=" &lt;2&gt; 什么是翻墙？"></a><span id="climb"> &lt;2&gt; 什么是翻墙？</span></h3><p>在中国大陆境内，由于外国网站可能会有一些不正当的言论，于是国家就设立了一堵网络上的墙，如同上文坐飞机遇到的空气墙一样，阻止国内网民访问众多国外网站，如谷歌，维基百科等。于是，通过像VPN这样的工具，跳过这堵墙直接定位到不受墙影响的其它位置的服务器，再通过这个服务器访问外国的网站，也就被形象地称为“翻墙”。</p>
+<h3 id="lt-3-gt-为什么要翻墙？"><a href="#lt-3-gt-为什么要翻墙？" class="headerlink" title=" &lt;3&gt; 为什么要翻墙？"></a><span id="whyclimb"> &lt;3&gt; 为什么要翻墙？</span></h3><ol>
+<li><p>因为少数某些原因，国家就否定了其它绝大多数好的国外网站。这些封锁对我们的学习生活带来了极大麻烦。比如最近谷歌翻译退出中国市场，很多中国网民使用的还是谷歌浏览器，导致在使用过程中翻译及插件功能遇到很多困扰。再比如，世界上最大的百科全书“维基百科”，上面记录了很多对于研究课题很有帮助的知识，只因为记录了一些历史便被封锁。因此，开拓视野，学术研究——这便是翻墙的目的。</p>
+</li>
+<li><p>不仅如此，像在使用github这种网站时，虽然github没有被封锁，但是因为github服务器是部署在国外的，访问速度很慢。因此通过VPN快速穿越到国外一个位置，再通过那个位置连接github，可以增加访问速度。</p>
+</li>
+</ol>
+<h1 id="1-Clash的使用-1"><a href="#1-Clash的使用-1" class="headerlink" title=" 1. Clash的使用"></a><span id="clash"> 1. Clash的使用</span></h1><p><strong>简介：Clash是我一直在使用的一个梯子，但是它仅仅只是一个帮助我们修改代理的工具而已，需要我们自己把节点导入其中。</strong></p>
+<p><strong>官网：<a target="_blank" rel="noopener" href="https://github.com/Fndroid/clash_for_windows_pkg/releases">https://github.com/Fndroid/clash_for_windows_pkg&#x2F;releases</a></strong></p>
+<h3 id="lt-1-gt-安装"><a href="#lt-1-gt-安装" class="headerlink" title=" &lt;1&gt; 安装"></a><span id="install"> &lt;1&gt; 安装</span></h3><p>我以<strong>Windows</strong>系统为例，打开github官网，在<strong>Assets</strong>中找<strong>windows</strong>版本的Clash下载并解压缩。解压完成后，运行安装程序。然后，打开你安装的路径，找到下图红框中的exe程序打开，便会出来Clash的主界面。</p>
+<p><img src="https://s2.loli.net/2023/01/27/XPwMQf2GVUkpacn.png"></p>
+<h3 id="lt-2-gt-节点"><a href="#lt-2-gt-节点" class="headerlink" title=" &lt;2&gt; 节点"></a><span id="node"> &lt;2&gt; 节点</span></h3><p><strong>官网：<a target="_blank" rel="noopener" href="https://管人痴.com/">https:&#x2F;&#x2F;管人痴.com&#x2F;</a></strong></p>
+<p>这个机场（卖节点的网站）是之前我哥哥推荐给我的，性价比极高。</p>
+<p>进入之后，我们注册一个账号，注册完后进入用户中心，点击进入充值界面。</p>
+<p><img src="https://s2.loli.net/2023/01/27/4jnCuspZRGIS1UX.png"></p>
+<p>通常来说，买一个VIP5的月付，也就是充15元，一个月绰绰有余了。充钱只能使用支付宝，所以先提前导入一点钱到支付宝里。</p>
+<p>充完之后返回主页面，选择商店。</p>
+<p><img src="https://s2.loli.net/2023/01/27/hHAWJi9KIgvCXs1.png"></p>
+<p>进入后选择<strong>月付 个人小流量 标准版</strong>购买即可。</p>
+<h3 id="lt-3-gt-导入"><a href="#lt-3-gt-导入" class="headerlink" title=" &lt;3&gt; 导入"></a><span id="import"> &lt;3&gt; 导入</span></h3><p>返回主页，在<strong>快速使用</strong>选择windows，往下滑，找到Clash for windows，选择配置一键导入</p>
+<p><img src="https://s2.loli.net/2023/01/27/9mgNnYryAlV5QLc.png"></p>
+<p>之后，浏览器会自动打开你已经安装好的Clash，在主界面配置中，更新订阅</p>
+<p><img src="https://s2.loli.net/2023/04/17/vbCYWGZ2dXU43RL.png"></p>
+<p>然后点击左侧<strong>代理</strong>，会出现很多节点。接着点击右上角的测速按钮</p>
+<p><img src="https://s2.loli.net/2023/04/17/kZ1sVtaXGSqTLWE.png"></p>
+<p>测完速之后会在每个代理的右侧显示延迟，选择<strong>延迟较低且波动不大</strong>的代理，鼠标点击选择。</p>
+<p>然后在左栏<strong>常规</strong>启用<strong>系统代理</strong>，或右键Windows系统右下角的Clash角标启用<strong>系统代理</strong>。</p>
+<p>启用之后看到Clash小猫亮了就说明成功了。打开<strong>油管<a href="www.youtube.com">www.youtube.com</a></strong> <strong>或 <a href="www.google.com">www.google.com</a></strong> 试试吧！</p>
+<h1 id="2-v2rayN的使用-1"><a href="#2-v2rayN的使用-1" class="headerlink" title=" 2. v2rayN的使用"></a><span id="v2rayN"> 2. v2rayN的使用</span></h1><p><strong>简介：与Clash一样，v2rayN也是一个简单，快捷的代理工具。但与Clash订阅机场类型不同的是，v2rayN更适用于白嫖的节点</strong></p>
+<p><strong>官网：<a target="_blank" rel="noopener" href="https://github.com/2dust/v2rayN/releases">https://github.com/2dust/v2rayN/releases</a></strong></p>
+<h3 id="lt-1-gt-安装-1"><a href="#lt-1-gt-安装-1" class="headerlink" title=" &lt;1&gt; 安装"></a><span id="install2"> &lt;1&gt; 安装</span></h3><p>进入官网选择下载最新版，然后在下面的 <em>Assets</em> 中点击下载<strong>v2rayN-Core</strong>。</p>
+<p>下载完后解压缩，打开v2rayN.exe，在windows系统右下角点击v2rayN角标显示主窗口。</p>
+<h3 id="lt-2-gt-节点-1"><a href="#lt-2-gt-节点-1" class="headerlink" title=" &lt;2&gt; 节点"></a><span id="node2"> &lt;2&gt; 节点</span></h3><p>可以上网搜索v2rayN公益节点，如<a target="_blank" rel="noopener" href="https://www.iyio.net/">www.iyio.net</a> 等。</p>
+<p><img src="https://s2.loli.net/2023/01/27/UX8QCbBYmcFgOzI.png"></p>
+<p>如上图所示范例，将这些节点Ctrl+C复制下来，打开v2rayN主界面，Ctrl+V导入这些节点，然后Ctrl+A全选，Ctrl+R测延时，选择延时少且稳定的节点，按下Enter选择，然后在右下角小图标<strong>系统代理</strong>中勾选<strong>自动配置系统代理</strong>，图标变红即为成功。</p>
+<h1 id="3-其它VPN-1"><a href="#3-其它VPN-1" class="headerlink" title=" 3. 其它VPN"></a><span id="others"> 3. 其它VPN</span></h1><h3 id="lt-1-gt-AoxVPN"><a href="#lt-1-gt-AoxVPN" class="headerlink" title=" &lt;1&gt; AoxVPN"></a><span id="aoxvpn"> &lt;1&gt; AoxVPN</span></h3><p><strong>推荐等级：⭐️⭐️⭐️⭐️⭐️</strong></p>
+<p><strong>官网：<a target="_blank" rel="noopener" href="https://aoxvpn.com/">https://aoxvpn.com/</a></strong></p>
+<p>我以前经常使用这款VPN，免费，速度快，没广告。但是后来有广告而且非VIP节点数量减少了。不过这在免费VPN中依旧是相当不错的。</p>
+<h3 id="lt-2-gt-Freegate"><a href="#lt-2-gt-Freegate" class="headerlink" title=" &lt;2&gt; Freegate"></a><span id="freegate"> &lt;2&gt; Freegate</span></h3><p><strong>推荐等级：⭐️⭐️⭐️⭐️</strong></p>
+<p><strong>官网：<a target="_blank" rel="noopener" href="https://dongtaiwang.com/">https://dongtaiwang.com/</a></strong></p>
+<p>自由门应该比较大众，很绿色，只有简简单单的exe文件加一些配置文件，但是有时可能会连接不上。</p>
+<h3 id="lt-3-gt-Greenhub"><a href="#lt-3-gt-Greenhub" class="headerlink" title=" &lt;3&gt; Greenhub"></a><span id="greenhub"> &lt;3&gt; Greenhub</span></h3><p><strong>推荐等级：⭐️⭐️⭐️</strong></p>
+<p><strong>官网：<a target="_blank" rel="noopener" href="https://greenhubtx.ga/">https://greenhubtx.ga/</a></strong></p>
+<p>同学推荐的VPN，不开VIP节点数量有点少，不是很稳定。</p>
+<h3 id="lt-4-gt-Lantern"><a href="#lt-4-gt-Lantern" class="headerlink" title=" &lt;4&gt; Lantern"></a><span id="lantern"> &lt;4&gt; Lantern</span></h3><p><strong>推荐等级：⭐️</strong></p>
+<p><strong>官网：<a target="_blank" rel="noopener" href="https://github.com/getlantern/lantern">https://github.com/getlantern/lantern</a></strong></p>
+<p>蓝灯应该也有很多人听过了，不少翻墙党党员都是从蓝灯走过来的。不过它的安全性很差，开VPN被捕的人当时用的都是蓝灯。而且最近这几年国家对VPN的打击更严厉了，蓝灯大概是用不了了。</p>
+<h3 id="End-结语-1"><a href="#End-结语-1" class="headerlink" title=" End. 结语"></a><span id="end"> End. 结语</span></h3><p>当然，VPN远不止这些。我在这篇文章列举了一些常用的VPN，还有很多其它类似的我就不一一列举了，下来可以自行探索。最后，翻墙请仅用于学术研究，不要散播敏感信息。如有出事，后果自负，本文不承担任何责任。</p>
+<p>Tips: 在关机前，请确保自己的VPN已处于关闭状态，否则下次启动后IE代理会出现问题，导致浏览器访问不了网页。遇到这种情况可以打开Windows设置，搜索”代理”，将如下图所示处关闭即可。<br><img src="https://s2.loli.net/2023/04/17/Q8TO9qmGUd5cV47.png"></p>
+
+    </div>
+    
+    
+    
+    
+    
+</div>
+
+                    <footer id="footer">
+    <div class="footer-wrap">
+        <div>
+            © 2023/01/22 - 2024/03/26<span class="footer-icon"><i class="fa-solid fa-font-awesome fa-fw"></i></span>by HackerDsg
+        </div>
+    </div>
+</footer>
+
+                </div>
+            </div>
+            </transition>
+            <div id="showimg">
+                <img id="showimg-content" alt="showimg">
+            </div>
+        </div>
+        <script src="/js/functions.js"></script>
+<script src="/js/particlex.js"></script>
+
+    
+    
+    
+    
+
+
+    </body>
+</html>
+
+<canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas>
+<script src="/js/firework.js"></script>
+
+<canvas id="background" style="position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:-1"></canvas>
+<script src="/js/background.js"></script>
+
+<script type="text/javascript" src="/js/funnytitle.js"></script>
